@@ -48,9 +48,9 @@ It uses an **AD9833 signal generator**, an **audio amplifier (TPA3116D2)**, and 
 ## 🧾 Files in this folder
 | File | Description |
 |------|--------------|
-| `schematic.pdf` | (To be added) Schematic circuit of the complete system |
-| `pcb_layout.png` | (To be added) PCB layout preview |
-| `BOM.xlsx` | (Optional) Bill of Materials for all components |
+| `schematic.pdf` | Schematic circuit of the complete system |
+| `pcb_layout.png` | PCB layout preview |
+| `BOM.xlsx` | Bill of Materials for all components |
 
 ---
 
