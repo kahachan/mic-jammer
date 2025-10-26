@@ -82,8 +82,8 @@ This project is licensed under the **MIT License**. See `LICENSE` for details.
 
 **Ardian Fikri Abdulah**  
 Optimasi AI — Research & Development  
-GitHub: [@ardianfikri](https://github.com/ardianfikri) *(update link if different)*  
-Email: `your.email@example.com` *(replace with preferred contact)*
+GitHub: [@ardianfikri](https://github.com/kahachan)  
+Email: `ardyprmbn7@gmail.com` 
 
 ---
 
