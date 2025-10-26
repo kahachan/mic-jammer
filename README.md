@@ -31,3 +31,65 @@ This project focuses on **hardware design**, **firmware control**, and **signal 
 
 ## 🧩 Project Structure
 
+
+---
+
+## 🧾 Main Components
+
+- **Microcontroller:** Arduino Nano (ATmega328P)  
+- **Signal generator:** AD9833 (DDS)  
+- **Audio amplifier / driver:** TPA3116D2  
+- **Power MOSFET:** IRF4115  
+- **Acoustic output:** Ultrasonic transducer
+
+See `hardware/BOM.csv` for detailed part numbers and quantities.
+
+---
+
+## ⚠️ Status & Notes
+
+- **Current status:** Prototype firmware and schematic available. **PCB layout:** Pending (in development).  
+- Keep repository up-to-date as PCB and test results are finalized.  
+- Add shielding, grounding, and decoupling capacitors carefully during PCB design to reduce unwanted noise and improve stability.
+
+---
+
+## ⚠️ Disclaimer
+
+This project is intended **for educational, research, and testing purposes only.**  
+Do **not** use this device to intentionally interfere with legitimate communications, public equipment, or in any way that violates laws or regulations. The author and Optimasi AI are not responsible for misuse.
+
+---
+
+## 🛠️ How to build & run (basic)
+
+1. Prepare hardware according to schematic (`hardware/schematic.pdf`) and BOM.
+2. Flash firmware on Arduino Nano (`firmware/`) using Arduino IDE or PlatformIO.
+3. Power amplifier stage (TPA3116D2) from an appropriate power supply following its datasheet.
+4. Start with low amplitude / short-range tests, measure acoustic output and verify safety.
+
+> See `docs/testing_protocol.md` for recommended test steps (add this file once tests are documented).
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See `LICENSE` for details.
+
+---
+
+## 👤 Author & Contact
+
+**Ardian Fikri Abdulah**  
+Optimasi AI — Research & Development  
+GitHub: [@ardianfikri](https://github.com/ardianfikri) *(update link if different)*  
+Email: `your.email@example.com` *(replace with preferred contact)*
+
+---
+
+## 🔜 Next steps (recommended)
+
+- Finalize PCB footprints & create `hardware/pcb/README_PCB.md`
+- Perform DRC and generate Gerbers
+- Add `docs/testing_results.pdf` with measurement data (SPL vs distance, frequency response)
+- Consider adding a `CHANGELOG.md` and branch `pcb-dev` for PCB work
