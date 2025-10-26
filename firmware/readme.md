@@ -55,5 +55,3 @@ The signal is amplified by a **TPA3116D2 audio amplifier** and transmitted throu
 - To change waveform mode, modify this line in `setup()`:
   ```cpp
   ad9833_set_mode(AD_SQUARE);
-
-## File Structure
