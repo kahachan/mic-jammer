@@ -54,13 +54,6 @@ See `hardware/BOM.csv` for detailed part numbers and quantities.
 
 ---
 
-## ⚠️ Disclaimer
-
-This project is intended **for educational, research, and testing purposes only.**  
-Do **not** use this device to intentionally interfere with legitimate communications, public equipment, or in any way that violates laws or regulations. The author and Optimasi AI are not responsible for misuse.
-
----
-
 ## 🛠️ How to build & run (basic)
 
 1. Prepare hardware according to schematic (`hardware/schematic.pdf`) and BOM.
